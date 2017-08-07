@@ -1,42 +1,42 @@
 
 recipe-specs:
 
-    - name: lemon
-      recipe-repo: https://github.com/ilastik/ilastik-build-conda
-      tag: clang-py3
-      recipe-subdir: lemon
-      
-      # Optional specs
-      environment: {}
-      no_test: false
-    
-    - name: vigra
-      recipe-repo: https://github.com/ilastik/ilastik-build-conda
-      tag: clang-py3
-      recipe-subdir: vigra
-      environment:
-        VIGRA_SKIP_TESTS: 0
-      no_test: false
-    
-    - name: dpct
-      recipe-repo: https://github.com/chaubold/dpct
-      tag: master
-      recipe-subdir: conda-recipe
-    
-    - name: yapsy
-      recipe-repo: https://github.com/ilastik/ilastik-build-conda
-      tag: clang-py3
-      recipe-subdir: yapsy
-
-    - name: hytra
-      recipe-repo: https://github.com/chaubold/hytra
-      tag: master
-      recipe-subdir: conda-recipe
-    
-    - name: iiboost
-      recipe-repo: https://github.com/stuarteberg/iiboost
-      tag: clang
-      recipe-subdir: conda-recipe
+#    - name: lemon
+#      recipe-repo: https://github.com/ilastik/ilastik-build-conda
+#      tag: clang-py3
+#      recipe-subdir: lemon
+#      
+#      # Optional specs
+#      environment: {}
+#      no_test: false
+#    
+#    - name: vigra
+#      recipe-repo: https://github.com/ilastik/ilastik-build-conda
+#      tag: clang-py3
+#      recipe-subdir: vigra
+#      environment:
+#        VIGRA_SKIP_TESTS: 0
+#      no_test: false
+#    
+#    - name: dpct
+#      recipe-repo: https://github.com/chaubold/dpct
+#      tag: master
+#      recipe-subdir: conda-recipe
+#    
+#    - name: yapsy
+#      recipe-repo: https://github.com/ilastik/ilastik-build-conda
+#      tag: clang-py3
+#      recipe-subdir: yapsy
+#
+#    - name: hytra
+#      recipe-repo: https://github.com/chaubold/hytra
+#      tag: master
+#      recipe-subdir: conda-recipe
+#    
+#    - name: iiboost
+#      recipe-repo: https://github.com/stuarteberg/iiboost
+#      tag: clang
+#      recipe-subdir: conda-recipe
         
     - name: ilastik-feature-selection
       recipe-repo: https://github.com/ilastik/ilastik-feature-selection
